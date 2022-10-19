@@ -38,7 +38,7 @@ public class MergeSorter {
     }
 
     private static void merge (int[] inputArray, int[] left, int[] right)
-        int leftSize = left.length
+        int leftSize = left.length();
 
 
 }
