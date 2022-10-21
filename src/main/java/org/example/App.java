@@ -1,5 +1,5 @@
 package org.example;
-
+import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -7,7 +7,14 @@ import java.util.Random;
 public class App {
     public static void main(String[] args) {
 
-        int[] numbers = new int[6];
+        int numberDigits;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many numbers do you want to sort?");
+        numberDigits = scanner.nextInt();
+
+
+        int[] numbers = new int[numberDigits];
         {
             Random rand = new Random();
             for (int i = 0; i < numbers.length; i++) {

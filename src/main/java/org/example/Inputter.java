@@ -18,12 +18,11 @@ public class Inputter {
     public static int[] Randomizer(int[] numbers) {
 
 
-
         {
             Random rand = new Random();
 
             for (int i = 0; i < numbers.length; i++) {
-                numbers[i] = rand.nextInt(10000);
+                numbers[i] = rand.nextInt(6);
 
             }
         }
