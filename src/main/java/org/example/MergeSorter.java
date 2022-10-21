@@ -1,4 +1,5 @@
 package org.example;
+
 import java.util.Arrays;
 
 public class MergeSorter {
@@ -69,6 +70,6 @@ public class MergeSorter {
         }
 
         public static void printArray (int[] inputArray) {
-            System.out.println(Arrays.toString(inputArray));
+            System.out.println("MergeSorter - " + Arrays.toString(inputArray));
         }
 }

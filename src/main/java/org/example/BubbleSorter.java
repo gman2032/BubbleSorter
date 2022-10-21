@@ -29,7 +29,7 @@ public class BubbleSorter {
             //counter++;
             //System.out.println("Pass " + counter + " complete");
         }
-        System.out.println(Arrays.toString(outputArray));
+        System.out.println(" BubbleSorter - " + Arrays.toString(outputArray));
     }
 }
 

@@ -1,13 +1,23 @@
 package org.example;
-
+import java.util.Scanner;
 import java.util.Random;
-
 
 public class Inputter {
 
     int[] numbers = new int[6];
 
-    public static void Randomizer(int[] numbers) {
+   public static int numbersGetter (int numberDigits) {
+
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("How many numbers do you want to sort?");
+       numberDigits = scanner.nextInt();
+       return numberDigits;
+   }
+
+
+    public static int[] Randomizer(int[] numbers) {
+
+
 
         {
             Random rand = new Random();
@@ -18,6 +28,7 @@ public class Inputter {
             }
         }
         System.out.println(numbers);
+        return numbers;
     }
 }
 
