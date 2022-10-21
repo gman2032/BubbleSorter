@@ -16,8 +16,9 @@ In App tab, if you Click run the following happens:
 Problems for me to work on:
 1. When building the Inputter, I can't split out the functions and get it to work, will work on it this weekend
 2. MergeSorter Result keeps showing extra lines!!
-3. Build Binary Tree Sort
-4. Build MVC  design patterns, ie. Display Manager and Sort Manager
-5. Build Factory Pattern Design
-6. Loggers
-7. Timing Information
+3. Still can't get AppTest to work with input of Int[]
+4. Build Binary Tree Sort
+5. Build MVC  design patterns, ie. Display Manager and Sort Manager
+6. Build Factory Pattern Design
+7. Loggers
+8. Timing Information
